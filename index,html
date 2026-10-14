@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DOSPA – Redizajn</title>
+</head>
+<body>
+    <h1>DOSPA – Redizajn webovej stránky</h1>
+    <p>Autor: Samuel Csomor</p>
+
+    <h2>Odkazy projektu</h2>
+
+    <p>
+        <a href="https://dospa.sk/" target="_blank">
+            Pôvodná stránka DOSPA
+        </a>
+    </p>
+
+    <p>
+        <a href="https://www.figma.com/design/Fip91xH6NyClJuq02pP5jy/Untitled?node-id=0-1"
+           target="_blank">
+            Návrh redizajnu vo Figme
+        </a>
+    </p>
+</body>
+</html>
