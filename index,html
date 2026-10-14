@@ -3,26 +3,59 @@
 <html lang="sk">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DOSPA – Redizajn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOSPA – Finálny dizajn</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: black;
+        }
+
+        .fullscreen {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .tenor-gif-embed {
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        .tenor-gif-embed iframe {
+            width: 100% !important;
+            height: 100% !important;
+            border: none;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>DOSPA – Redizajn webovej stránky</h1>
-    <p>Autor: Samuel Csomor</p>
 
-    <h2>Odkazy projektu</h2>
+    <div class="fullscreen">
+        <div class="tenor-gif-embed"
+             data-postid="1371611536126645899"
+             data-share-method="host"
+             data-width="100%">
+            <a href="https://tenor.com/sk/view/kanye-west-kanye-ye-um-uhm-gif-1371611536126645899">
+                Kanye West GIF
+            </a>
+        </div>
+    </div>
 
-    <p>
-        <a href="https://dospa.sk/" target="_blank">
-            Pôvodná stránka DOSPA
-        </a>
-    </p>
+    <script async src="https://tenor.com/embed.js"></script>
 
-    <p>
-        <a href="https://www.figma.com/design/Fip91xH6NyClJuq02pP5jy/Untitled?node-id=0-1"
-           target="_blank">
-            Návrh redizajnu vo Figme
-        </a>
-    </p>
 </body>
 </html>
